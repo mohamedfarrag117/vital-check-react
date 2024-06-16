@@ -1,0 +1,28 @@
+.content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 255, 250);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+.title-content h1 {
+  margin-bottom: 10px;
+  color: #37c0be;
+}
+.medical {
+  width: 60%;
+  height: 100%;
+  border-radius: 0%;
+}

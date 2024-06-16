@@ -1,0 +1,140 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: left;
+  background: #1a3a4d;
+  color: #fff;
+  padding: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.pageTitle {
+  font-weight: 30px;
+  font-size: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.currentpage {
+  margin: 18px;
+}
+
+.diabetes-about {
+  background-color: #0e2634;
+  padding: 50px 60px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+strong {
+  color: #37c0be;
+  font-weight: bold;
+}
+
+input {
+  margin: 10px;
+}
+label {
+  font-size: 20px;
+}
+
+.pageFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.NextButton {
+  background-color: #37c0be;
+  color: #fff;
+  padding: auto;
+  border: solid #37c0be;
+  font-size: 17px;
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+}
+.CalcAgainButton {
+  background-color: #37c0be;
+  color: #fff;
+  padding: auto;
+  border: solid #37c0be;
+  font-size: 17px;
+  margin-left: 20px;
+  width: 140px;
+  height: 50px;
+}
+.NextButton:hover,
+.CalcAgainButton:hover,
+.PreviousButton:hover {
+  cursor: pointer;
+}
+
+.PreviousButton {
+  background-color: #37c0be;
+  color: #fff;
+  padding: auto;
+  border: solid #37c0be;
+  font-size: 17px;
+  width: 100px;
+  height: 50px;
+}
+
+.NextButton:disabled,
+.PreviousButton:disabled {
+  opacity: 0.2;
+  cursor: default;
+}
+
+/*Navigation*/
+
+.navigation-bar ul {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+  padding: 0;
+}
+
+.navigation-bar li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-bar button,
+.navigation-bar .disabled-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 3px;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  background-color: rgba(55, 192, 190, 0.2);
+  border: 1px #ccc;
+  cursor: default;
+  text-decoration: none;
+  color: #37c0be;
+  box-sizing: border-box;
+}
+
+.navigation-bar button.active {
+  background-color: #37c0be;
+  color: #fff;
+}
+
+.navigation-bar .disabled-link {
+  background-color: #445a67;
+  color: grey;
+  cursor: default;
+}
